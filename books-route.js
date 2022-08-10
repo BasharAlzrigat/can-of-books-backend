@@ -1,3 +1,4 @@
+const BookModel = require('./book-model.js');
 
 function booksHandler(req,res){
     BookModel.find({},(error,booksData)=>{
